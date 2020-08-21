@@ -1,0 +1,76 @@
+header {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 48%, rgba(252,176,69,1) 100%);
+    padding-bottom: 1px;
+    color: white;
+}
+
+.dropZone {
+    height: 180px;
+    background: white;
+}
+
+.dropZone:hover {
+   cursor: pointer; 
+}
+
+.dropZone--active {
+    background-color: lightgrey;
+    color: white;
+}
+
+#miImagen {
+    display: block;
+    max-width: 80%;
+    max-height: 400px;
+}
+
+#botonesEdicion > div {
+    padding: 0 2px;
+}
+
+#botonesEdicion > div > p {
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*TODO: debo eliminar los estilos y hacerlos desde canvas */
+#botonEliminarEfecto {
+    background: rgb(207, 255, 112);
+}
+#boton1 {
+    background: blueviolet;
+}
+#boton2 {
+    background: rgb(9, 120, 163);
+}
+#boton3 {
+    background: rgb(156, 47, 156);
+}
+#boton4 {
+    background: orangered;
+}
+#boton5 {
+    background: red;
+}
+
+.efectoUno {
+    filter: grayscale(80%);
+}
+
+.efectoDos {
+    filter: grayscale(50%) sepia(50%);
+}
+
+.efectoTres {
+    filter: blur(1px);
+}
+
+.efectoCuatro {
+    filter: brightness(70%);
+}
+
+.efectoCinco {
+    filter: drop-shadow(10px 5px 15px rgb(172, 172, 172));
+}
